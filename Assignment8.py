@@ -6,7 +6,6 @@ print("Time tuple is used to represen time in a way it is easy to understand.And
 print("eg:index:0->year...index:1->Month...index:2->Day...index:3->hour...index:4->Minute..index:5->Sec..index:6->Day of Week..index:7->day f year..index:8->Dst")
 
 #quest2:
-
 print("Formitted time:"+time.asctime(time.localtime()))
 
 #ques 3:
@@ -32,7 +31,7 @@ print(strftime("%H:%M:%S", gmtime()))
 x=int(input("Enter your number"))
 print("the factorial is"+" "+str(math.factorial(x)))
 
-#ques8:
+#ques 8:
 a= int(input("Enter 1 numbers"))
 b= int(input("Enter 2 numbers"))
 print("gcd is:"+str(math.gcd(a, b)))

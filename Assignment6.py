@@ -1,4 +1,5 @@
 #ques1:10 inputs from user and prnt it on screen
+'''
 print("Enter your 10 numbers")
 p=[]
 for i in range(10):
@@ -77,7 +78,7 @@ for i in dict.values():
     for j in dict.keys():
         if i == dict[j]:
             print("\n found", i, "at key", j)
-
+'''
 #ques 8:
 a=[]
 for i in range(3):
@@ -88,7 +89,7 @@ search = input("Enter a number to search")
 
 for i in a:
     if i == search:
-        a.remove(i)
+        a.pop(i)
         print("Element found and deleted")
     else:
         print("element not found")
